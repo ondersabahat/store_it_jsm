@@ -8,19 +8,9 @@ import {
   RadialBarChart,
 } from "recharts";
 
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-} from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { ChartConfig, ChartContainer } from "@/components/ui/chart";
-import {
-  calculatePercentage,
-  calculateAngle,
-  convertFileSize,
-} from "@/lib/utils";
+import { calculateAngle, calculatePercentage } from "@/lib/utils";
 
 const chartConfig = {
   size: {

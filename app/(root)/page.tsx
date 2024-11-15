@@ -7,6 +7,7 @@ import { getFiles, getTotalSpaceUsed } from "@/lib/actions/file.actions";
 import { convertFileSize, getUsageSummary } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
+import { Models } from "node-appwrite";
 
 export default async function Home() {
   const [files, totalSpace] = await Promise.all([
